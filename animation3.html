@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .div1
+    {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        animation: pragati 6s infinite;
+        position: relative;
+    }
+    @keyframes pragati
+    {
+        0%{top:0px; background-color: red; width: 100px;}
+        25%{top:150px; background-color:blueviolet; width: 100px;}
+        50%{top:0px;background-color:green; width: 100px;}
+        75%{top:200px;background-color:crimson; width: 100px;}
+        100%{top:100px; background-color:darkorange; width: 100px;}
+    }
+</style>
+<body>
+    <h1>The @keyframes Rule</h1>
+    <h4>Note: The @keyframes rule is not supported in Internet Explorer 9 and earlier versions.</h4>
+    <div class="div1">
+
+    </div> 
+</body>
+</html>
