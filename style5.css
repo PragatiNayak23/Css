@@ -1,0 +1,9 @@
+#myPic 
+{
+    width: 200px;
+    height: 200px;
+    background: pink;
+    background: url('./mouAbu2.jpg') no-repeat center center;
+    background-size: cover;
+    opacity: 50%;
+}
